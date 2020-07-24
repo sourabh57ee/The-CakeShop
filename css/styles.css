@@ -1,0 +1,204 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.content-top {
+    background: transparent url(Roof.png) repeat-x top left;
+    background-size: 3%;
+    height: auto;
+}
+
+.top-bar {
+    padding-top: 0%;
+    padding-left: 0%;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Lilita One', cursive;
+}
+
+.navbar-dark .brand-name{
+    color: #5c2a9d
+}
+
+.nav-link:hover {
+    font-weight: bolder;
+
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+#title {
+    background-color: #45046a;
+}
+
+.fluid-title {
+    color: #fff;
+    padding: 4% 10% 5%;
+}
+
+.title-row{
+    padding-top: 3%;
+}
+
+.title-heading{
+    text-align: left;
+}
+.content {
+    padding-top: 5%;
+}
+
+.title-img {
+    text-align: center;
+}
+
+.title-cake {
+    width: 60%;
+    text-align: center;
+}
+
+.carousel-panel {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.carousel-img {
+    width: 75%;
+    text-align: center;
+}
+
+.fluid-spec {
+    padding: 3% 10% 5%;
+}
+
+.spec-box {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+
+p {
+    color: gray;
+}
+
+.spec-icon {
+    color: #b5076b;
+    padding-bottom: 1rem;
+}
+
+.spec-icon:hover {
+    color: #5c2a9d;
+}
+
+/*Product*/
+
+#product {
+    background-color: #45046a;
+}
+
+.fluid-product {
+    color: #fff;
+    padding: 4% 10% 5%;
+}
+
+.product-col{
+    text-align: center;
+    padding: 2% 2%;
+}
+.product-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 5px solid #f1ebbb;
+}
+
+.product-img:hover{
+    border: 7px solid #b5076b;
+}
+
+/*Testimonials*/
+
+#testimonial{
+    background-color: #f1ebbb;
+}
+
+.fluid-testimonial{
+    padding: 4% 10% 5%;
+}
+
+.testimonial-heading{
+    padding: 20px 0px;
+}
+
+
+.quote-text{
+    margin-top: 20px;
+    font-size: 2vw;
+    font-weight: normal;
+    background-image: url(Quote.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: #b5076b;
+    width: 50%;
+    margin: auto;
+    padding: 10%;
+}
+
+.image-class{
+    text-align: right;
+    width: 50%;
+}
+
+.testimonial-image{
+    height: 200px;
+}
+
+/*Contact*/
+
+#contact{
+    background-color: #45046a;
+}
+
+.fluid-contact{
+    padding: 4% 5% 5%;
+}
+
+.contact-icon{
+    margin: 20px;
+}
+
+.copyright{
+    font-size: 0.75rem;
+}
+
+/*Media*/
+
+@media (max-width: 992px) {
+
+.title-heading{
+    text-align: center;
+}
+
+.content-top {
+   
+    background-size: 5%;
+    
+}
+
+}
